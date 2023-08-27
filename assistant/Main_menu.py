@@ -4,6 +4,7 @@ from assistant.main_note import main as note_book
 from prompt_toolkit import prompt
 from prompt_toolkit.completion import WordCompleter
 import random
+import pyfiglet
 
 
 ABOUT_MLA = '''
@@ -38,6 +39,7 @@ def goodby():
     exit(0)
 
 def start_arrange_dir():
+    print(pyfiglet.Figlet().renderText("Arrange Dir"))
     try:
         dir = input('Give me the link to the dir: ')
     except (KeyboardInterrupt, EOFError):
