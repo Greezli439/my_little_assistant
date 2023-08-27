@@ -3,6 +3,7 @@ The S.O.F.T. (by Python Mode command)
 This is the Sophisticated Organizer For Thoughtful people
 
 It consists of three components:
+
         Arrange Dir  - if you have some directory with a bunch of unsorted files this tool is for you.
                        It helps to tidy up the specified directory and normalize some names.
 
